@@ -1,0 +1,7 @@
+/Users/buyappleus/RiderProjects/Solution1/ConsoleApplication1/bin/Debug/ConsoleApplication1.exe.config
+/Users/buyappleus/RiderProjects/Solution1/ConsoleApplication1/bin/Debug/ConsoleApplication1.exe
+/Users/buyappleus/RiderProjects/Solution1/ConsoleApplication1/bin/Debug/ConsoleApplication1.pdb
+/Users/buyappleus/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/ConsoleApplication1.csprojResolveAssemblyReference.cache
+/Users/buyappleus/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/ConsoleApplication1.csproj.CoreCompileInputs.cache
+/Users/buyappleus/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/ConsoleApplication1.exe
+/Users/buyappleus/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/ConsoleApplication1.pdb
