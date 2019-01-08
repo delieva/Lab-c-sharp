@@ -93,6 +93,10 @@ namespace ConsoleApplication1
             }
         }
 
+        public double GetMark()
+        {
+            return Mark;
+        }
         public int CompareTo(object obj)
         {
             Examination exam = obj as Examination;

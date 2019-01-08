@@ -15,7 +15,19 @@ namespace ConsoleApplication1
         public string Group { get; set; }
         public string MarkBook { get; set; }
         public List<Examination> DoneExams { get; set; }
-        public double AverageValue { get; private set; }
+
+        public double AverageValue
+        {
+            get
+            {
+                double res = 0, num = DoneExams.Count();
+                foreach (Examination i in DoneExams)
+                {
+                    res += i.GetMark();
+                }
+                return res / num;
+            }
+        }
         public void AddExams(Examination[] examList)
         {
             foreach (Examination e in examList)
@@ -45,15 +57,7 @@ namespace ConsoleApplication1
             }
             Console.WriteLine();
         }
-        public void calculateAverageValue()
-        {
-            double count = 0;
-            foreach (Examination exam in DoneExams)
-            {
-                count += exam.Mark;
-            }
-            AverageValue = count / DoneExams.Count();
-        }
+        
         public void GetExams()
         {
             DoneExams.Sort();
